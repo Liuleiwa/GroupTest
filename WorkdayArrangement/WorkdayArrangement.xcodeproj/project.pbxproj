@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB99AEB18FBA09FCD611584 /* libPods-WorkdayArrangementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D961EDF275F1369F223119 /* libPods-WorkdayArrangementTests.a */; };
+		52D205042271954400029159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D205032271954400029159 /* AppDelegate.m */; };
+		52D205072271954400029159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D205062271954400029159 /* ViewController.m */; };
+		52D2050A2271954400029159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D205082271954400029159 /* Main.storyboard */; };
+		52D2050C2271954500029159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2050B2271954500029159 /* Assets.xcassets */; };
+		52D2050F2271954500029159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2050D2271954500029159 /* LaunchScreen.storyboard */; };
+		52D205122271954500029159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D205112271954500029159 /* main.m */; };
+		52D2051C2271954500029159 /* WorkdayArrangementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2051B2271954500029159 /* WorkdayArrangementTests.m */; };
+		52D205272271954500029159 /* WorkdayArrangementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D205262271954500029159 /* WorkdayArrangementUITests.m */; };
+		52D20535227196E300029159 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D20534227196E300029159 /* Realm.framework */; };
+		52D2056F227196F100029159 /* UIScrollView+DREmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20539227196F100029159 /* UIScrollView+DREmptyDataSet.m */; };
+		52D20570227196F100029159 /* CommTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2053B227196F100029159 /* CommTools.m */; };
+		52D20571227196F100029159 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2053E227196F100029159 /* BaseListViewController.m */; };
+		52D20572227196F100029159 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2053F227196F100029159 /* BaseViewController.m */; };
+		52D20573227196F100029159 /* EmployeeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20544227196F100029159 /* EmployeeModel.m */; };
+		52D20574227196F100029159 /* RMEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20545227196F100029159 /* RMEmployee.m */; };
+		52D20575227196F100029159 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20547227196F100029159 /* CalendarDayModel.m */; };
+		52D20576227196F100029159 /* RMDayDuty.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2054A227196F100029159 /* RMDayDuty.m */; };
+		52D20577227196F100029159 /* EmployeeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2054C227196F100029159 /* EmployeeCell.m */; };
+		52D20578227196F100029159 /* DutyListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D2054D227196F100029159 /* DutyListCell.xib */; };
+		52D20579227196F100029159 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2054E227196F100029159 /* CalendarDayCell.m */; };
+		52D2057A227196F100029159 /* CalendarItemCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D20553227196F100029159 /* CalendarItemCellCell.xib */; };
+		52D2057B227196F100029159 /* EmployeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D20554227196F100029159 /* EmployeeCell.xib */; };
+		52D2057C227196F100029159 /* LEITopImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20558227196F100029159 /* LEITopImageButton.m */; };
+		52D2057D227196F100029159 /* ToEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D2055A227196F100029159 /* ToEditView.xib */; };
+		52D2057E227196F100029159 /* StatisticsItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2055B227196F100029159 /* StatisticsItemCell.m */; };
+		52D2057F227196F100029159 /* ToEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2055C227196F100029159 /* ToEditView.m */; };
+		52D20580227196F100029159 /* DutyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2055D227196F100029159 /* DutyListCell.m */; };
+		52D20581227196F100029159 /* StatisticsItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D2055E227196F100029159 /* StatisticsItemCell.xib */; };
+		52D20582227196F100029159 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20561227196F100029159 /* UIScrollView+EmptyDataSet.m */; };
+		52D20583227196F100029159 /* CalendarItemCellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20563227196F100029159 /* CalendarItemCellCell.m */; };
+		52D20584227196F100029159 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20565227196F100029159 /* HomeViewController.m */; };
+		52D20585227196F100029159 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20566227196F100029159 /* RootTabBarController.m */; };
+		52D20586227196F100029159 /* DutyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D20569227196F100029159 /* DutyListViewController.m */; };
+		52D20587227196F100029159 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2056C227196F100029159 /* StatisticsViewController.m */; };
+		52D20588227196F100029159 /* EmployeeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2056D227196F100029159 /* EmployeeListViewController.m */; };
+		52D205BA227196F800029159 /* tab_2xz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2058B227196F800029159 /* tab_2xz@3x.png */; };
+		52D205BB227196F800029159 /* tab_3xz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2058C227196F800029159 /* tab_3xz@3x.png */; };
+		52D205BC227196F800029159 /* tab_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2058D227196F800029159 /* tab_3@3x.png */; };
+		52D205BD227196F800029159 /* tab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2058E227196F800029159 /* tab_1@2x.png */; };
+		52D205BE227196F800029159 /* tab_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2058F227196F800029159 /* tab_1@3x.png */; };
+		52D205BF227196F800029159 /* tab_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20590227196F800029159 /* tab_3@2x.png */; };
+		52D205C0227196F800029159 /* tab_2xz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20591227196F800029159 /* tab_2xz@2x.png */; };
+		52D205C1227196F800029159 /* tab_3xz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20592227196F800029159 /* tab_3xz@2x.png */; };
+		52D205C2227196F800029159 /* tab_1xz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20593227196F800029159 /* tab_1xz@2x.png */; };
+		52D205C3227196F800029159 /* tab_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20594227196F800029159 /* tab_2@3x.png */; };
+		52D205C4227196F800029159 /* tab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20595227196F800029159 /* tab_2@2x.png */; };
+		52D205C5227196F800029159 /* tab_1xz@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20596227196F800029159 /* tab_1xz@3x.png */; };
+		52D205C6227196F800029159 /* list_color_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20598227196F800029159 /* list_color_04@2x.png */; };
+		52D205C7227196F800029159 /* list_color_08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D20599227196F800029159 /* list_color_08@2x.png */; };
+		52D205C8227196F800029159 /* list_color_06@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059A227196F800029159 /* list_color_06@3x.png */; };
+		52D205C9227196F800029159 /* list_color_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059B227196F800029159 /* list_color_06@2x.png */; };
+		52D205CA227196F800029159 /* list_color_08@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059C227196F800029159 /* list_color_08@3x.png */; };
+		52D205CB227196F800029159 /* list_color_04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059D227196F800029159 /* list_color_04@3x.png */; };
+		52D205CC227196F800029159 /* list_color_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059E227196F800029159 /* list_color_02@2x.png */; };
+		52D205CD227196F800029159 /* list_color_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D2059F227196F800029159 /* list_color_02@3x.png */; };
+		52D205CE227196F800029159 /* list_color_07@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A0227196F800029159 /* list_color_07@3x.png */; };
+		52D205CF227196F800029159 /* list_color_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A1227196F800029159 /* list_color_05@2x.png */; };
+		52D205D0227196F800029159 /* list_color_05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A2227196F800029159 /* list_color_05@3x.png */; };
+		52D205D1227196F800029159 /* list_color_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A3227196F800029159 /* list_color_07@2x.png */; };
+		52D205D2227196F800029159 /* list_color_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A4227196F800029159 /* list_color_03@2x.png */; };
+		52D205D3227196F800029159 /* list_color_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A5227196F800029159 /* list_color_01@3x.png */; };
+		52D205D4227196F800029159 /* list_color_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A6227196F800029159 /* list_color_01@2x.png */; };
+		52D205D5227196F800029159 /* list_color_03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A7227196F800029159 /* list_color_03@3x.png */; };
+		52D205D6227196F800029159 /* jh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205A9227196F800029159 /* jh@2x.png */; };
+		52D205D7227196F800029159 /* edit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AA227196F800029159 /* edit@3x.png */; };
+		52D205D8227196F800029159 /* jj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AB227196F800029159 /* jj@3x.png */; };
+		52D205D9227196F800029159 /* s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AC227196F800029159 /* s@3x.png */; };
+		52D205DA227196F800029159 /* s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AD227196F800029159 /* s@2x.png */; };
+		52D205DB227196F800029159 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AE227196F800029159 /* edit@2x.png */; };
+		52D205DC227196F800029159 /* jj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205AF227196F800029159 /* jj@2x.png */; };
+		52D205DD227196F800029159 /* jh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B0227196F800029159 /* jh@3x.png */; };
+		52D205DE227196F800029159 /* x_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B1227196F800029159 /* x_white@2x.png */; };
+		52D205DF227196F800029159 /* dc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B2227196F800029159 /* dc@2x.png */; };
+		52D205E0227196F800029159 /* dc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B3227196F800029159 /* dc@3x.png */; };
+		52D205E1227196F800029159 /* nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B4227196F800029159 /* nav_bg@2x.png */; };
+		52D205E2227196F800029159 /* x_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B5227196F800029159 /* x_white@3x.png */; };
+		52D205E3227196F800029159 /* nodata@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B6227196F800029159 /* nodata@2x.png */; };
+		52D205E4227196F800029159 /* nodata@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B7227196F800029159 /* nodata@3x.png */; };
+		52D205E5227196F800029159 /* x@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B8227196F800029159 /* x@3x.png */; };
+		52D205E6227196F800029159 /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D205B9227196F800029159 /* x@2x.png */; };
+		52D205E82271975F00029159 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D20534227196E300029159 /* Realm.framework */; };
+		52D205E92271975F00029159 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52D20534227196E300029159 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7297866B020A1A7A43AAA5F5 /* libPods-WorkdayArrangement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C93AAA6914DD66A476A8F774 /* libPods-WorkdayArrangement.a */; };
+		F337C373E10B6887803067D9 /* libPods-WorkdayArrangementUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA136CD37BCD208D26153F68 /* libPods-WorkdayArrangementUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D205182271954500029159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D204F72271954300029159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D204FE2271954300029159;
+			remoteInfo = WorkdayArrangement;
+		};
+		52D205232271954500029159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D204F72271954300029159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D204FE2271954300029159;
+			remoteInfo = WorkdayArrangement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52D205EA2271976000029159 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52D205E92271975F00029159 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EA096BEA4EB54C0DC3D063F /* Pods-WorkdayArrangementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangementTests/Pods-WorkdayArrangementTests.release.xcconfig"; sourceTree = "<group>"; };
+		340157BCD30B32077709BED1 /* Pods-WorkdayArrangementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangementUITests/Pods-WorkdayArrangementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52D204FF2271954300029159 /* WorkdayArrangement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkdayArrangement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D205022271954300029159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52D205032271954400029159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52D205052271954400029159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52D205062271954400029159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52D205092271954400029159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D2050B2271954500029159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D2050E2271954500029159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D205102271954500029159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D205112271954500029159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52D205172271954500029159 /* WorkdayArrangementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkdayArrangementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D2051B2271954500029159 /* WorkdayArrangementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkdayArrangementTests.m; sourceTree = "<group>"; };
+		52D2051D2271954500029159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D205222271954500029159 /* WorkdayArrangementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkdayArrangementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D205262271954500029159 /* WorkdayArrangementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkdayArrangementUITests.m; sourceTree = "<group>"; };
+		52D205282271954500029159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D20534227196E300029159 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		52D20539227196F100029159 /* UIScrollView+DREmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DREmptyDataSet.m"; sourceTree = "<group>"; };
+		52D2053A227196F100029159 /* CommTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommTools.h; sourceTree = "<group>"; };
+		52D2053B227196F100029159 /* CommTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommTools.m; sourceTree = "<group>"; };
+		52D2053C227196F100029159 /* UIScrollView+DREmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DREmptyDataSet.h"; sourceTree = "<group>"; };
+		52D2053E227196F100029159 /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
+		52D2053F227196F100029159 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		52D20540227196F100029159 /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
+		52D20541227196F100029159 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		52D20543227196F100029159 /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		52D20544227196F100029159 /* EmployeeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeModel.m; sourceTree = "<group>"; };
+		52D20545227196F100029159 /* RMEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMEmployee.m; sourceTree = "<group>"; };
+		52D20546227196F100029159 /* RMDayDuty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDayDuty.h; sourceTree = "<group>"; };
+		52D20547227196F100029159 /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		52D20548227196F100029159 /* RMEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMEmployee.h; sourceTree = "<group>"; };
+		52D20549227196F100029159 /* EmployeeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeModel.h; sourceTree = "<group>"; };
+		52D2054A227196F100029159 /* RMDayDuty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDayDuty.m; sourceTree = "<group>"; };
+		52D2054C227196F100029159 /* EmployeeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeCell.m; sourceTree = "<group>"; };
+		52D2054D227196F100029159 /* DutyListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DutyListCell.xib; sourceTree = "<group>"; };
+		52D2054E227196F100029159 /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCell.m; sourceTree = "<group>"; };
+		52D2054F227196F100029159 /* ToEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToEditView.h; sourceTree = "<group>"; };
+		52D20550227196F100029159 /* StatisticsItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsItemCell.h; sourceTree = "<group>"; };
+		52D20551227196F100029159 /* CalendarItemCellCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarItemCellCell.h; sourceTree = "<group>"; };
+		52D20552227196F100029159 /* DutyListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DutyListCell.h; sourceTree = "<group>"; };
+		52D20553227196F100029159 /* CalendarItemCellCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarItemCellCell.xib; sourceTree = "<group>"; };
+		52D20554227196F100029159 /* EmployeeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeCell.xib; sourceTree = "<group>"; };
+		52D20555227196F100029159 /* EmployeeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeCell.h; sourceTree = "<group>"; };
+		52D20556227196F100029159 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
+		52D20558227196F100029159 /* LEITopImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEITopImageButton.m; sourceTree = "<group>"; };
+		52D20559227196F100029159 /* LEITopImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEITopImageButton.h; sourceTree = "<group>"; };
+		52D2055A227196F100029159 /* ToEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToEditView.xib; sourceTree = "<group>"; };
+		52D2055B227196F100029159 /* StatisticsItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsItemCell.m; sourceTree = "<group>"; };
+		52D2055C227196F100029159 /* ToEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToEditView.m; sourceTree = "<group>"; };
+		52D2055D227196F100029159 /* DutyListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DutyListCell.m; sourceTree = "<group>"; };
+		52D2055E227196F100029159 /* StatisticsItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatisticsItemCell.xib; sourceTree = "<group>"; };
+		52D20561227196F100029159 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		52D20562227196F100029159 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		52D20563227196F100029159 /* CalendarItemCellCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarItemCellCell.m; sourceTree = "<group>"; };
+		52D20565227196F100029159 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		52D20566227196F100029159 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		52D20567227196F100029159 /* EmployeeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListViewController.h; sourceTree = "<group>"; };
+		52D20568227196F100029159 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		52D20569227196F100029159 /* DutyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DutyListViewController.m; sourceTree = "<group>"; };
+		52D2056A227196F100029159 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		52D2056B227196F100029159 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		52D2056C227196F100029159 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		52D2056D227196F100029159 /* EmployeeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListViewController.m; sourceTree = "<group>"; };
+		52D2056E227196F100029159 /* DutyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DutyListViewController.h; sourceTree = "<group>"; };
+		52D2058B227196F800029159 /* tab_2xz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2xz@3x.png"; sourceTree = "<group>"; };
+		52D2058C227196F800029159 /* tab_3xz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3xz@3x.png"; sourceTree = "<group>"; };
+		52D2058D227196F800029159 /* tab_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3@3x.png"; sourceTree = "<group>"; };
+		52D2058E227196F800029159 /* tab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1@2x.png"; sourceTree = "<group>"; };
+		52D2058F227196F800029159 /* tab_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1@3x.png"; sourceTree = "<group>"; };
+		52D20590227196F800029159 /* tab_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3@2x.png"; sourceTree = "<group>"; };
+		52D20591227196F800029159 /* tab_2xz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2xz@2x.png"; sourceTree = "<group>"; };
+		52D20592227196F800029159 /* tab_3xz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_3xz@2x.png"; sourceTree = "<group>"; };
+		52D20593227196F800029159 /* tab_1xz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1xz@2x.png"; sourceTree = "<group>"; };
+		52D20594227196F800029159 /* tab_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2@3x.png"; sourceTree = "<group>"; };
+		52D20595227196F800029159 /* tab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_2@2x.png"; sourceTree = "<group>"; };
+		52D20596227196F800029159 /* tab_1xz@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_1xz@3x.png"; sourceTree = "<group>"; };
+		52D20598227196F800029159 /* list_color_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_04@2x.png"; sourceTree = "<group>"; };
+		52D20599227196F800029159 /* list_color_08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_08@2x.png"; sourceTree = "<group>"; };
+		52D2059A227196F800029159 /* list_color_06@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_06@3x.png"; sourceTree = "<group>"; };
+		52D2059B227196F800029159 /* list_color_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_06@2x.png"; sourceTree = "<group>"; };
+		52D2059C227196F800029159 /* list_color_08@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_08@3x.png"; sourceTree = "<group>"; };
+		52D2059D227196F800029159 /* list_color_04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_04@3x.png"; sourceTree = "<group>"; };
+		52D2059E227196F800029159 /* list_color_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_02@2x.png"; sourceTree = "<group>"; };
+		52D2059F227196F800029159 /* list_color_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_02@3x.png"; sourceTree = "<group>"; };
+		52D205A0227196F800029159 /* list_color_07@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_07@3x.png"; sourceTree = "<group>"; };
+		52D205A1227196F800029159 /* list_color_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_05@2x.png"; sourceTree = "<group>"; };
+		52D205A2227196F800029159 /* list_color_05@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_05@3x.png"; sourceTree = "<group>"; };
+		52D205A3227196F800029159 /* list_color_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_07@2x.png"; sourceTree = "<group>"; };
+		52D205A4227196F800029159 /* list_color_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_03@2x.png"; sourceTree = "<group>"; };
+		52D205A5227196F800029159 /* list_color_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_01@3x.png"; sourceTree = "<group>"; };
+		52D205A6227196F800029159 /* list_color_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_01@2x.png"; sourceTree = "<group>"; };
+		52D205A7227196F800029159 /* list_color_03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_color_03@3x.png"; sourceTree = "<group>"; };
+		52D205A9227196F800029159 /* jh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh@2x.png"; sourceTree = "<group>"; };
+		52D205AA227196F800029159 /* edit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@3x.png"; sourceTree = "<group>"; };
+		52D205AB227196F800029159 /* jj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj@3x.png"; sourceTree = "<group>"; };
+		52D205AC227196F800029159 /* s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s@3x.png"; sourceTree = "<group>"; };
+		52D205AD227196F800029159 /* s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s@2x.png"; sourceTree = "<group>"; };
+		52D205AE227196F800029159 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
+		52D205AF227196F800029159 /* jj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj@2x.png"; sourceTree = "<group>"; };
+		52D205B0227196F800029159 /* jh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jh@3x.png"; sourceTree = "<group>"; };
+		52D205B1227196F800029159 /* x_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_white@2x.png"; sourceTree = "<group>"; };
+		52D205B2227196F800029159 /* dc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dc@2x.png"; sourceTree = "<group>"; };
+		52D205B3227196F800029159 /* dc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dc@3x.png"; sourceTree = "<group>"; };
+		52D205B4227196F800029159 /* nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg@2x.png"; sourceTree = "<group>"; };
+		52D205B5227196F800029159 /* x_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x_white@3x.png"; sourceTree = "<group>"; };
+		52D205B6227196F800029159 /* nodata@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nodata@2x.png"; sourceTree = "<group>"; };
+		52D205B7227196F800029159 /* nodata@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nodata@3x.png"; sourceTree = "<group>"; };
+		52D205B8227196F800029159 /* x@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@3x.png"; sourceTree = "<group>"; };
+		52D205B9227196F800029159 /* x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
+		52D205E72271970400029159 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		62D961EDF275F1369F223119 /* libPods-WorkdayArrangementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkdayArrangementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3EAFED999DE85FE672FDF4 /* Pods-WorkdayArrangement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangement/Pods-WorkdayArrangement.debug.xcconfig"; sourceTree = "<group>"; };
+		A167142D3796718F570AD29B /* Pods-WorkdayArrangement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangement.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangement/Pods-WorkdayArrangement.release.xcconfig"; sourceTree = "<group>"; };
+		AA136CD37BCD208D26153F68 /* libPods-WorkdayArrangementUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkdayArrangementUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93AAA6914DD66A476A8F774 /* libPods-WorkdayArrangement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkdayArrangement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BC2D659BC0C029EFAD6FE0 /* Pods-WorkdayArrangementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangementUITests/Pods-WorkdayArrangementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D22967B34B6CF9BAFBCDE7 /* Pods-WorkdayArrangementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayArrangementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkdayArrangementTests/Pods-WorkdayArrangementTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D204FC2271954300029159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D205E82271975F00029159 /* Realm.framework in Frameworks */,
+				52D20535227196E300029159 /* Realm.framework in Frameworks */,
+				7297866B020A1A7A43AAA5F5 /* libPods-WorkdayArrangement.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D205142271954500029159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB99AEB18FBA09FCD611584 /* libPods-WorkdayArrangementTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D2051F2271954500029159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337C373E10B6887803067D9 /* libPods-WorkdayArrangementUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D204F62271954300029159 = {
+			isa = PBXGroup;
+			children = (
+				52D205E72271970400029159 /* PrefixHeader.pch */,
+				52D20534227196E300029159 /* Realm.framework */,
+				52D205012271954300029159 /* WorkdayArrangement */,
+				52D2051A2271954500029159 /* WorkdayArrangementTests */,
+				52D205252271954500029159 /* WorkdayArrangementUITests */,
+				52D205002271954300029159 /* Products */,
+				99279B317ED7E29A28BCF787 /* Pods */,
+				8A0779A2B3D08948D2006F18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52D205002271954300029159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D204FF2271954300029159 /* WorkdayArrangement.app */,
+				52D205172271954500029159 /* WorkdayArrangementTests.xctest */,
+				52D205222271954500029159 /* WorkdayArrangementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D205012271954300029159 /* WorkdayArrangement */ = {
+			isa = PBXGroup;
+			children = (
+				52D20589227196F800029159 /* images */,
+				52D20536227196F100029159 /* Class */,
+				52D205022271954300029159 /* AppDelegate.h */,
+				52D205032271954400029159 /* AppDelegate.m */,
+				52D205052271954400029159 /* ViewController.h */,
+				52D205062271954400029159 /* ViewController.m */,
+				52D205082271954400029159 /* Main.storyboard */,
+				52D2050B2271954500029159 /* Assets.xcassets */,
+				52D2050D2271954500029159 /* LaunchScreen.storyboard */,
+				52D205102271954500029159 /* Info.plist */,
+				52D205112271954500029159 /* main.m */,
+			);
+			path = WorkdayArrangement;
+			sourceTree = "<group>";
+		};
+		52D2051A2271954500029159 /* WorkdayArrangementTests */ = {
+			isa = PBXGroup;
+			children = (
+				52D2051B2271954500029159 /* WorkdayArrangementTests.m */,
+				52D2051D2271954500029159 /* Info.plist */,
+			);
+			path = WorkdayArrangementTests;
+			sourceTree = "<group>";
+		};
+		52D205252271954500029159 /* WorkdayArrangementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52D205262271954500029159 /* WorkdayArrangementUITests.m */,
+				52D205282271954500029159 /* Info.plist */,
+			);
+			path = WorkdayArrangementUITests;
+			sourceTree = "<group>";
+		};
+		52D20536227196F100029159 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				52D20537227196F100029159 /* Vendors */,
+				52D20538227196F100029159 /* Tools */,
+				52D2053D227196F100029159 /* Comm */,
+				52D20542227196F100029159 /* Model */,
+				52D2054B227196F100029159 /* View */,
+				52D20564227196F100029159 /* ViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		52D20537227196F100029159 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		52D20538227196F100029159 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				52D20539227196F100029159 /* UIScrollView+DREmptyDataSet.m */,
+				52D2053A227196F100029159 /* CommTools.h */,
+				52D2053B227196F100029159 /* CommTools.m */,
+				52D2053C227196F100029159 /* UIScrollView+DREmptyDataSet.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		52D2053D227196F100029159 /* Comm */ = {
+			isa = PBXGroup;
+			children = (
+				52D2053E227196F100029159 /* BaseListViewController.m */,
+				52D2053F227196F100029159 /* BaseViewController.m */,
+				52D20540227196F100029159 /* BaseListViewController.h */,
+				52D20541227196F100029159 /* BaseViewController.h */,
+			);
+			path = Comm;
+			sourceTree = "<group>";
+		};
+		52D20542227196F100029159 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52D20543227196F100029159 /* CalendarDayModel.h */,
+				52D20544227196F100029159 /* EmployeeModel.m */,
+				52D20545227196F100029159 /* RMEmployee.m */,
+				52D20546227196F100029159 /* RMDayDuty.h */,
+				52D20547227196F100029159 /* CalendarDayModel.m */,
+				52D20548227196F100029159 /* RMEmployee.h */,
+				52D20549227196F100029159 /* EmployeeModel.h */,
+				52D2054A227196F100029159 /* RMDayDuty.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D2054B227196F100029159 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52D2054C227196F100029159 /* EmployeeCell.m */,
+				52D2054D227196F100029159 /* DutyListCell.xib */,
+				52D2054E227196F100029159 /* CalendarDayCell.m */,
+				52D2054F227196F100029159 /* ToEditView.h */,
+				52D20550227196F100029159 /* StatisticsItemCell.h */,
+				52D20551227196F100029159 /* CalendarItemCellCell.h */,
+				52D20552227196F100029159 /* DutyListCell.h */,
+				52D20553227196F100029159 /* CalendarItemCellCell.xib */,
+				52D20554227196F100029159 /* EmployeeCell.xib */,
+				52D20555227196F100029159 /* EmployeeCell.h */,
+				52D20556227196F100029159 /* CalendarDayCell.h */,
+				52D20557227196F100029159 /* LEITopImageButton */,
+				52D2055A227196F100029159 /* ToEditView.xib */,
+				52D2055B227196F100029159 /* StatisticsItemCell.m */,
+				52D2055C227196F100029159 /* ToEditView.m */,
+				52D2055D227196F100029159 /* DutyListCell.m */,
+				52D2055E227196F100029159 /* StatisticsItemCell.xib */,
+				52D2055F227196F100029159 /* DZNEmptyDataSet */,
+				52D20563227196F100029159 /* CalendarItemCellCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D20557227196F100029159 /* LEITopImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				52D20558227196F100029159 /* LEITopImageButton.m */,
+				52D20559227196F100029159 /* LEITopImageButton.h */,
+			);
+			path = LEITopImageButton;
+			sourceTree = "<group>";
+		};
+		52D2055F227196F100029159 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				52D20560227196F100029159 /* Source */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		52D20560227196F100029159 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				52D20561227196F100029159 /* UIScrollView+EmptyDataSet.m */,
+				52D20562227196F100029159 /* UIScrollView+EmptyDataSet.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		52D20564227196F100029159 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52D20565227196F100029159 /* HomeViewController.m */,
+				52D20566227196F100029159 /* RootTabBarController.m */,
+				52D20567227196F100029159 /* EmployeeListViewController.h */,
+				52D20568227196F100029159 /* StatisticsViewController.h */,
+				52D20569227196F100029159 /* DutyListViewController.m */,
+				52D2056A227196F100029159 /* RootTabBarController.h */,
+				52D2056B227196F100029159 /* HomeViewController.h */,
+				52D2056C227196F100029159 /* StatisticsViewController.m */,
+				52D2056D227196F100029159 /* EmployeeListViewController.m */,
+				52D2056E227196F100029159 /* DutyListViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		52D20589227196F800029159 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				52D2058A227196F800029159 /* tab */,
+				52D20597227196F800029159 /* list */,
+				52D205A8227196F800029159 /* icon */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		52D2058A227196F800029159 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				52D2058B227196F800029159 /* tab_2xz@3x.png */,
+				52D2058C227196F800029159 /* tab_3xz@3x.png */,
+				52D2058D227196F800029159 /* tab_3@3x.png */,
+				52D2058E227196F800029159 /* tab_1@2x.png */,
+				52D2058F227196F800029159 /* tab_1@3x.png */,
+				52D20590227196F800029159 /* tab_3@2x.png */,
+				52D20591227196F800029159 /* tab_2xz@2x.png */,
+				52D20592227196F800029159 /* tab_3xz@2x.png */,
+				52D20593227196F800029159 /* tab_1xz@2x.png */,
+				52D20594227196F800029159 /* tab_2@3x.png */,
+				52D20595227196F800029159 /* tab_2@2x.png */,
+				52D20596227196F800029159 /* tab_1xz@3x.png */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+		52D20597227196F800029159 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				52D20598227196F800029159 /* list_color_04@2x.png */,
+				52D20599227196F800029159 /* list_color_08@2x.png */,
+				52D2059A227196F800029159 /* list_color_06@3x.png */,
+				52D2059B227196F800029159 /* list_color_06@2x.png */,
+				52D2059C227196F800029159 /* list_color_08@3x.png */,
+				52D2059D227196F800029159 /* list_color_04@3x.png */,
+				52D2059E227196F800029159 /* list_color_02@2x.png */,
+				52D2059F227196F800029159 /* list_color_02@3x.png */,
+				52D205A0227196F800029159 /* list_color_07@3x.png */,
+				52D205A1227196F800029159 /* list_color_05@2x.png */,
+				52D205A2227196F800029159 /* list_color_05@3x.png */,
+				52D205A3227196F800029159 /* list_color_07@2x.png */,
+				52D205A4227196F800029159 /* list_color_03@2x.png */,
+				52D205A5227196F800029159 /* list_color_01@3x.png */,
+				52D205A6227196F800029159 /* list_color_01@2x.png */,
+				52D205A7227196F800029159 /* list_color_03@3x.png */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		52D205A8227196F800029159 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				52D205A9227196F800029159 /* jh@2x.png */,
+				52D205AA227196F800029159 /* edit@3x.png */,
+				52D205AB227196F800029159 /* jj@3x.png */,
+				52D205AC227196F800029159 /* s@3x.png */,
+				52D205AD227196F800029159 /* s@2x.png */,
+				52D205AE227196F800029159 /* edit@2x.png */,
+				52D205AF227196F800029159 /* jj@2x.png */,
+				52D205B0227196F800029159 /* jh@3x.png */,
+				52D205B1227196F800029159 /* x_white@2x.png */,
+				52D205B2227196F800029159 /* dc@2x.png */,
+				52D205B3227196F800029159 /* dc@3x.png */,
+				52D205B4227196F800029159 /* nav_bg@2x.png */,
+				52D205B5227196F800029159 /* x_white@3x.png */,
+				52D205B6227196F800029159 /* nodata@2x.png */,
+				52D205B7227196F800029159 /* nodata@3x.png */,
+				52D205B8227196F800029159 /* x@3x.png */,
+				52D205B9227196F800029159 /* x@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		8A0779A2B3D08948D2006F18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93AAA6914DD66A476A8F774 /* libPods-WorkdayArrangement.a */,
+				62D961EDF275F1369F223119 /* libPods-WorkdayArrangementTests.a */,
+				AA136CD37BCD208D26153F68 /* libPods-WorkdayArrangementUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99279B317ED7E29A28BCF787 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3EAFED999DE85FE672FDF4 /* Pods-WorkdayArrangement.debug.xcconfig */,
+				A167142D3796718F570AD29B /* Pods-WorkdayArrangement.release.xcconfig */,
+				D9D22967B34B6CF9BAFBCDE7 /* Pods-WorkdayArrangementTests.debug.xcconfig */,
+				2EA096BEA4EB54C0DC3D063F /* Pods-WorkdayArrangementTests.release.xcconfig */,
+				D1BC2D659BC0C029EFAD6FE0 /* Pods-WorkdayArrangementUITests.debug.xcconfig */,
+				340157BCD30B32077709BED1 /* Pods-WorkdayArrangementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D204FE2271954300029159 /* WorkdayArrangement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D2052B2271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangement" */;
+			buildPhases = (
+				56DDC451B08EBB5592AD83F0 /* [CP] Check Pods Manifest.lock */,
+				52D204FB2271954300029159 /* Sources */,
+				52D204FC2271954300029159 /* Frameworks */,
+				52D204FD2271954300029159 /* Resources */,
+				A33894EC54804E67D7A268E8 /* [CP] Copy Pods Resources */,
+				52D205EA2271976000029159 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkdayArrangement;
+			productName = WorkdayArrangement;
+			productReference = 52D204FF2271954300029159 /* WorkdayArrangement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D205162271954500029159 /* WorkdayArrangementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D2052E2271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangementTests" */;
+			buildPhases = (
+				F05514FB484DFE771CFDF5EF /* [CP] Check Pods Manifest.lock */,
+				52D205132271954500029159 /* Sources */,
+				52D205142271954500029159 /* Frameworks */,
+				52D205152271954500029159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D205192271954500029159 /* PBXTargetDependency */,
+			);
+			name = WorkdayArrangementTests;
+			productName = WorkdayArrangementTests;
+			productReference = 52D205172271954500029159 /* WorkdayArrangementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D205212271954500029159 /* WorkdayArrangementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D205312271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangementUITests" */;
+			buildPhases = (
+				4D9C2C0477AC370CAA24DE81 /* [CP] Check Pods Manifest.lock */,
+				52D2051E2271954500029159 /* Sources */,
+				52D2051F2271954500029159 /* Frameworks */,
+				52D205202271954500029159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D205242271954500029159 /* PBXTargetDependency */,
+			);
+			name = WorkdayArrangementUITests;
+			productName = WorkdayArrangementUITests;
+			productReference = 52D205222271954500029159 /* WorkdayArrangementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D204F72271954300029159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WorkdayArrangement;
+				TargetAttributes = {
+					52D204FE2271954300029159 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					52D205162271954500029159 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 52D204FE2271954300029159;
+					};
+					52D205212271954500029159 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 52D204FE2271954300029159;
+					};
+				};
+			};
+			buildConfigurationList = 52D204FA2271954300029159 /* Build configuration list for PBXProject "WorkdayArrangement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D204F62271954300029159;
+			productRefGroup = 52D205002271954300029159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D204FE2271954300029159 /* WorkdayArrangement */,
+				52D205162271954500029159 /* WorkdayArrangementTests */,
+				52D205212271954500029159 /* WorkdayArrangementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D204FD2271954300029159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D205BC227196F800029159 /* tab_3@3x.png in Resources */,
+				52D205D9227196F800029159 /* s@3x.png in Resources */,
+				52D205E5227196F800029159 /* x@3x.png in Resources */,
+				52D205D0227196F800029159 /* list_color_05@3x.png in Resources */,
+				52D205E2227196F800029159 /* x_white@3x.png in Resources */,
+				52D205CE227196F800029159 /* list_color_07@3x.png in Resources */,
+				52D205CB227196F800029159 /* list_color_04@3x.png in Resources */,
+				52D205D3227196F800029159 /* list_color_01@3x.png in Resources */,
+				52D205C4227196F800029159 /* tab_2@2x.png in Resources */,
+				52D2050F2271954500029159 /* LaunchScreen.storyboard in Resources */,
+				52D205BF227196F800029159 /* tab_3@2x.png in Resources */,
+				52D205DD227196F800029159 /* jh@3x.png in Resources */,
+				52D20581227196F100029159 /* StatisticsItemCell.xib in Resources */,
+				52D205D8227196F800029159 /* jj@3x.png in Resources */,
+				52D205C5227196F800029159 /* tab_1xz@3x.png in Resources */,
+				52D205DB227196F800029159 /* edit@2x.png in Resources */,
+				52D2050C2271954500029159 /* Assets.xcassets in Resources */,
+				52D205DA227196F800029159 /* s@2x.png in Resources */,
+				52D205CF227196F800029159 /* list_color_05@2x.png in Resources */,
+				52D205BA227196F800029159 /* tab_2xz@3x.png in Resources */,
+				52D205CD227196F800029159 /* list_color_02@3x.png in Resources */,
+				52D205C6227196F800029159 /* list_color_04@2x.png in Resources */,
+				52D205CA227196F800029159 /* list_color_08@3x.png in Resources */,
+				52D205C1227196F800029159 /* tab_3xz@2x.png in Resources */,
+				52D2050A2271954400029159 /* Main.storyboard in Resources */,
+				52D205D1227196F800029159 /* list_color_07@2x.png in Resources */,
+				52D205E6227196F800029159 /* x@2x.png in Resources */,
+				52D205D6227196F800029159 /* jh@2x.png in Resources */,
+				52D205BB227196F800029159 /* tab_3xz@3x.png in Resources */,
+				52D205DC227196F800029159 /* jj@2x.png in Resources */,
+				52D205D7227196F800029159 /* edit@3x.png in Resources */,
+				52D205D4227196F800029159 /* list_color_01@2x.png in Resources */,
+				52D205DF227196F800029159 /* dc@2x.png in Resources */,
+				52D205D2227196F800029159 /* list_color_03@2x.png in Resources */,
+				52D205C2227196F800029159 /* tab_1xz@2x.png in Resources */,
+				52D205C0227196F800029159 /* tab_2xz@2x.png in Resources */,
+				52D2057B227196F100029159 /* EmployeeCell.xib in Resources */,
+				52D205BD227196F800029159 /* tab_1@2x.png in Resources */,
+				52D205C9227196F800029159 /* list_color_06@2x.png in Resources */,
+				52D205BE227196F800029159 /* tab_1@3x.png in Resources */,
+				52D205E4227196F800029159 /* nodata@3x.png in Resources */,
+				52D205C8227196F800029159 /* list_color_06@3x.png in Resources */,
+				52D205E0227196F800029159 /* dc@3x.png in Resources */,
+				52D205E1227196F800029159 /* nav_bg@2x.png in Resources */,
+				52D205CC227196F800029159 /* list_color_02@2x.png in Resources */,
+				52D205C3227196F800029159 /* tab_2@3x.png in Resources */,
+				52D205E3227196F800029159 /* nodata@2x.png in Resources */,
+				52D2057D227196F100029159 /* ToEditView.xib in Resources */,
+				52D205DE227196F800029159 /* x_white@2x.png in Resources */,
+				52D20578227196F100029159 /* DutyListCell.xib in Resources */,
+				52D205C7227196F800029159 /* list_color_08@2x.png in Resources */,
+				52D205D5227196F800029159 /* list_color_03@3x.png in Resources */,
+				52D2057A227196F100029159 /* CalendarItemCellCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D205152271954500029159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D205202271954500029159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D9C2C0477AC370CAA24DE81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkdayArrangementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DDC451B08EBB5592AD83F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkdayArrangement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A33894EC54804E67D7A268E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WorkdayArrangement/Pods-WorkdayArrangement-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkdayArrangement/Pods-WorkdayArrangement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05514FB484DFE771CFDF5EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkdayArrangementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D204FB2271954300029159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D20585227196F100029159 /* RootTabBarController.m in Sources */,
+				52D205072271954400029159 /* ViewController.m in Sources */,
+				52D20583227196F100029159 /* CalendarItemCellCell.m in Sources */,
+				52D20571227196F100029159 /* BaseListViewController.m in Sources */,
+				52D20584227196F100029159 /* HomeViewController.m in Sources */,
+				52D205122271954500029159 /* main.m in Sources */,
+				52D20573227196F100029159 /* EmployeeModel.m in Sources */,
+				52D20574227196F100029159 /* RMEmployee.m in Sources */,
+				52D20586227196F100029159 /* DutyListViewController.m in Sources */,
+				52D2056F227196F100029159 /* UIScrollView+DREmptyDataSet.m in Sources */,
+				52D20575227196F100029159 /* CalendarDayModel.m in Sources */,
+				52D20570227196F100029159 /* CommTools.m in Sources */,
+				52D20580227196F100029159 /* DutyListCell.m in Sources */,
+				52D2057C227196F100029159 /* LEITopImageButton.m in Sources */,
+				52D20579227196F100029159 /* CalendarDayCell.m in Sources */,
+				52D20572227196F100029159 /* BaseViewController.m in Sources */,
+				52D2057F227196F100029159 /* ToEditView.m in Sources */,
+				52D20577227196F100029159 /* EmployeeCell.m in Sources */,
+				52D20588227196F100029159 /* EmployeeListViewController.m in Sources */,
+				52D20587227196F100029159 /* StatisticsViewController.m in Sources */,
+				52D205042271954400029159 /* AppDelegate.m in Sources */,
+				52D20576227196F100029159 /* RMDayDuty.m in Sources */,
+				52D20582227196F100029159 /* UIScrollView+EmptyDataSet.m in Sources */,
+				52D2057E227196F100029159 /* StatisticsItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D205132271954500029159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D2051C2271954500029159 /* WorkdayArrangementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D2051E2271954500029159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D205272271954500029159 /* WorkdayArrangementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D205192271954500029159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D204FE2271954300029159 /* WorkdayArrangement */;
+			targetProxy = 52D205182271954500029159 /* PBXContainerItemProxy */;
+		};
+		52D205242271954500029159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D204FE2271954300029159 /* WorkdayArrangement */;
+			targetProxy = 52D205232271954500029159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52D205082271954400029159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D205092271954400029159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52D2050D2271954500029159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D2050E2271954500029159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D205292271954500029159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52D2052A2271954500029159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D2052C2271954500029159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3EAFED999DE85FE672FDF4 /* Pods-WorkdayArrangement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = WorkdayArrangement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D2052D2271954500029159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A167142D3796718F570AD29B /* Pods-WorkdayArrangement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = WorkdayArrangement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52D2052F2271954500029159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D22967B34B6CF9BAFBCDE7 /* Pods-WorkdayArrangementTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayArrangementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkdayArrangement.app/WorkdayArrangement";
+			};
+			name = Debug;
+		};
+		52D205302271954500029159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA096BEA4EB54C0DC3D063F /* Pods-WorkdayArrangementTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayArrangementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkdayArrangement.app/WorkdayArrangement";
+			};
+			name = Release;
+		};
+		52D205322271954500029159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BC2D659BC0C029EFAD6FE0 /* Pods-WorkdayArrangementUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayArrangementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkdayArrangement;
+			};
+			name = Debug;
+		};
+		52D205332271954500029159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340157BCD30B32077709BED1 /* Pods-WorkdayArrangementUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayArrangementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WorkdayArrangement.WorkdayArrangementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkdayArrangement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D204FA2271954300029159 /* Build configuration list for PBXProject "WorkdayArrangement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D205292271954500029159 /* Debug */,
+				52D2052A2271954500029159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D2052B2271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D2052C2271954500029159 /* Debug */,
+				52D2052D2271954500029159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D2052E2271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D2052F2271954500029159 /* Debug */,
+				52D205302271954500029159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D205312271954500029159 /* Build configuration list for PBXNativeTarget "WorkdayArrangementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D205322271954500029159 /* Debug */,
+				52D205332271954500029159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D204F72271954300029159 /* Project object */;
+}

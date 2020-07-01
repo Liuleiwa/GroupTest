@@ -1,0 +1,24 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - CRGradientNavigationBar (0.3.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (= 2.3.0)
+  - CRGradientNavigationBar (= 0.3.2)
+  - SVProgressHUD (= 2.2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActionSheetPicker-3.0
+    - CRGradientNavigationBar
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  CRGradientNavigationBar: ee6fa0398e3d64af32a792b63336e094bb55402e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: f8c40e774724a3cf2177663e6d7c130f3e48ddc8
+
+COCOAPODS: 1.5.3
